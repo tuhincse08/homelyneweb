@@ -15,10 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'FrontController@index')->name('home');
-Route::get('terms-and-conditions', 'HomeController@terms_and_conditions')->name('terms-and-conditions');
-Route::get('about-us', 'HomeController@about_us')->name('about-us');
-Route::get('contact-us', 'HomeController@contact_us')->name('contact-us');
-Route::get('privacy-policy', 'HomeController@privacy_policy')->name('privacy-policy');
+Route::get('terms-and-conditions', 'FrontController@terms_and_conditions')->name('terms-and-conditions');
+Route::get('about-us', 'FrontController@about_us')->name('about-us');
+Route::get('faq', 'FrontController@faq')->name('faq');
+Route::get('contact-us', 'FrontController@contact_us')->name('contact-us');
+Route::get('privacy-policy', 'FrontController@privacy_policy')->name('privacy-policy');
 Route::post('newsletter/subscribe', 'NewsletterController@newsLetterSubscribe')->name('newsletter.subscribe');
 
 Route::get('authentication-failed', function () {

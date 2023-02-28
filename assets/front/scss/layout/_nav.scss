@@ -498,24 +498,24 @@ header {
                     }
 
                     &::before {
-                         @include pos($pos: absolute, $content: "\f107");
-                         @include font;
-                         right: -12px;
+                        @include pos($pos: absolute, $content: none);
+                        @include font;
+                        right: -12px;
 
-                         [dir="rtl"] & {
-                              right: unset;
-                              left: -12px;
-                         }
+                        [dir="rtl"] & {
+                             right: unset;
+                             left: -12px;
+                        }
 
-                         @include mq-max(xl) {
-                              right: 0;
+                        @include mq-max(xl) {
+                             right: 0;
 
-                              [dir="rtl"] & {
-                                   right: unset;
-                                   left: 0;
-                              }
-                         }
-                    }
+                             [dir="rtl"] & {
+                                  right: unset;
+                                  left: 0;
+                             }
+                        }
+                   }
 
                     &-2 {
                          &::before {

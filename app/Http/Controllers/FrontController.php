@@ -11,6 +11,26 @@ class FrontController extends Controller
     public function index(){
         return view('front.index');
     }
+    public function about_us(){
+        return view('front.about-us');
+    }
+
+    public function contact_us(){
+        return view('front.contact-us');
+    }
+
+    public function faq(){
+        return view('front.faq');
+    }
+
+    public function privacy_policy(){
+        return view('front.privacy-policy');
+    }
+
+    public function terms_and_conditions(){
+        return view('front.terms-and-conditions');
+    }
+
     public function index_1(){
         return view('front.index-1');
     }

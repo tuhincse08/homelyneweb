@@ -59,8 +59,9 @@
                         </div>
 
                         <div class="footer-logo-contain">
-                            <p>We are a friendly bar serving a variety of cocktails, wines and beers. Our bar is a
-                                perfect place for a couple.</p>
+                            <p>HomeLyne is a digital marketplace for those seeking exceptional, fresh,
+                                and locally sourced products while also supporting homepreneur women
+                                and smallholders on their path to success.</p>
 
                             <ul class="address">
                                 <li>
@@ -113,19 +114,22 @@
                     <div class="footer-contain">
                         <ul>
                             <li>
-                                <a href="index.html" class="text-content">Home</a>
+                                <a href="index" class="text-content">Home</a>
                             </li>
                             <li>
                                 <a href="shop-left-sidebar.html" class="text-content">Shop</a>
                             </li>
                             <li>
-                                <a href="about-us.html" class="text-content">About Us</a>
+                                <a href="about-us" class="text-content">About Us</a>
                             </li>
                             <li>
-                                <a href="blog-list.html" class="text-content">Blog</a>
+                                <a href="terms-and-conditions" class="text-content">Terms of Services</a>
                             </li>
                             <li>
-                                <a href="contact-us.html" class="text-content">Contact Us</a>
+                                <a href="contact-us" class="text-content">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="privacy-policy" class="text-content">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -154,7 +158,7 @@
                                 <a href="search.html" class="text-content">Search</a>
                             </li>
                             <li>
-                                <a href="faq.html" class="text-content">FAQ</a>
+                                <a href="faq" class="text-content">FAQ</a>
                             </li>
                         </ul>
                     </div>
@@ -172,7 +176,7 @@
                                     <i data-feather="phone"></i>
                                     <div class="contact-number">
                                         <h6 class="text-content">Hotline 24/7 :</h6>
-                                        <h5>+91 888 104 2340</h5>
+                                        <h5>639154951577</h5>
                                     </div>
                                 </div>
                             </li>
@@ -212,7 +216,7 @@
 
         <div class="sub-footer section-small-space">
             <div class="reserve">
-                <h6 class="text-content">©2022 HomeLyne All rights reserved</h6>
+                <h6 class="text-content">©2023 HomeLyne All rights reserved</h6>
             </div>
 
             <div class="payment">

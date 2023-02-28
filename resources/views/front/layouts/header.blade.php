@@ -1,3 +1,4 @@
+
 <header class="pb-md-4 pb-0">
     <div class="header-top">
         <div class="container-fluid-lg">
@@ -5,7 +6,7 @@
                 <div class="col-xxl-3 d-xxl-block d-none">
                     <div class="top-left-header">
                         <i class="iconly-Location icli text-white"></i>
-                        <span class="text-white">1418 Riverwood Drive, CA 96052, US</span>
+                        <span class="text-white">{{ \App\CentralLogics\Helpers::get_settings('address') }}</span>
                     </div>
                 </div>
 
@@ -14,7 +15,7 @@
                         <div class="notification-slider">
                             <div>
                                 <div class="timer-notification">
-                                    <h6><strong class="me-1">Welcome to Fastkart!</strong>Wrap new offers/gift
+                                    <h6><strong class="me-1">Welcome to HomeLyne!</strong>Wrap new offers/gift
                                         every signle day on Weekends.<strong class="ms-1">New Coupon Code: Fast024
                                         </strong>
 
@@ -35,7 +36,7 @@
                 </div>
 
                 <div class="col-lg-3">
-                    <ul class="about-list right-nav-about">
+                    <!--ul class="about-list right-nav-about">
                         <li class="right-nav-list">
                             <div class="dropdown theme-form-select">
                                 <button class="btn dropdown-toggle" type="button" id="select-language"
@@ -89,7 +90,7 @@
                                 </ul>
                             </div>
                         </li>
-                    </ul>
+                    </ul-->
                 </div>
             </div>
         </div>
@@ -117,7 +118,7 @@
                                         <span class="location-arrow">
                                             <i data-feather="map-pin"></i>
                                         </span>
-                                    <span class="locat-name">Your Location</span>
+                                    <span class="locat-name">Select Zone</span>
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                             </div>
@@ -162,7 +163,7 @@
                                         </div>
                                         <div class="delivery-detail">
                                             <h6>24/7 Delivery</h6>
-                                            <h5>+91 888 104 2340</h5>
+                                            <h5>{{ \App\CentralLogics\Helpers::get_settings('phone') }}</h5>
                                         </div>
                                     </a>
                                 </li>
@@ -691,11 +692,11 @@
                                 </div>
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav">
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                               data-bs-toggle="dropdown">Home</a>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ url('/') }}"
+                                               >Home</a>
 
-                                            <ul class="dropdown-menu">
+                                            <!--ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="{{ url('/index-1') }}">Home One</a>
                                                 </li>
@@ -706,14 +707,14 @@
                                                     <a class="dropdown-item" href="{{ url('/index-3') }}">Home Three</a>
                                                 </li>
 
-                                            </ul>
+                                            </ul-->
                                         </li>
 
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="javascript:void(0)"
-                                               data-bs-toggle="dropdown">Shop</a>
+                                        <li class="nav-item ">
+                                            <a class="nav-link " href="https://dev.ghwo.org/"
+                                              >Shop</a>
 
-                                            <ul class="dropdown-menu">
+                                            <!--ul class="dropdown-menu">
                                                 <li>
                                                     <a class="dropdown-item" href="{{ url('/listing') }}">Product Page</a>
                                                 </li>
@@ -724,10 +725,21 @@
                                                 <li>
                                                     <a class="dropdown-item" href="{{ url('/detail') }}">Detail Page</a>
                                                 </li>
-                                            </ul>
+                                            </ul-->
                                         </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link " href="about-us">
+                                              About Us</a> </li>
+                                              <li class="nav-item ">
 
-                                        <li class="nav-item dropdown">
+                                            <a class="nav-link " href="contact-us">
+                                            Contact Us</a> </li>
+
+                                              <li class="nav-item ">
+                                            <a class="nav-link " href="store/apply">
+                                              Become A seller</a> </li>
+
+                                        <!--li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                                                data-bs-toggle="dropdown">Product</a>
 
@@ -877,7 +889,7 @@
                                                     <a class="dropdown-item" href="{{ url('/seller') }}">Seller</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li-->
                                     </ul>
                                 </div>
                             </div>
